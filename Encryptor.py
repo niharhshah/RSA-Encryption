@@ -6,10 +6,6 @@ n = p*q
 z = (p-1)*(q-1)
 e = 585
 d = 23801
-def conv(a):
-    for i in a:
-        c = ord(i)
-        print(i,c)
 def encrypt(m):
     cypher = (m**e) % n
     return cypher

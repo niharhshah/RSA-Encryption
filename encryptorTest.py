@@ -1,6 +1,6 @@
 import Encryptor
 debug = 0
-for i in range(4567):
+for i in range(65636):
     p = Encryptor.encrypt(i)
     q = Encryptor.fast_dec(p)
     if(debug):

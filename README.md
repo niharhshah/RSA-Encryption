@@ -49,6 +49,6 @@ To Decrypt file
 ```  
  Use this for concatenation ECB Decryption
 ```  
-  python Version2.py 1 <PlainText.txt> <encryptedFile.Txt>
+  python Version2.py 1 <encryptedFile.Txt>
 ```
 

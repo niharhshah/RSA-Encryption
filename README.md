@@ -37,18 +37,18 @@ Now you have generated all the keys. Save these keys into **_Encryptor.py_**
 
 To encrypt file (encryptedFile will be generated in the same folder. If same file exists it will be overwritten)
 ```
-  python Version1.py 0 <PlainText.txt> <encryptedFile.Txt>
+  python Version1.py e <PlainText.txt> <encryptedFile.Txt>
 ```
 Use this for concatenation ECB Encryption
 ```   
-  python Version2.py 0 <PlainText.txt> <encryptedFile.Txt>
+  python Version2.py d <PlainText.txt> <encryptedFile.Txt>
 ```
 To Decrypt file 
 ```
-  python Version1.py 1 <encryptedFile.txt>
+  python Version1.py d <encryptedFile.txt>
 ```  
  Use this for concatenation ECB Decryption
 ```  
-  python Version2.py 1 <encryptedFile.Txt>
+  python Version2.py d <encryptedFile.Txt>
 ```
 
